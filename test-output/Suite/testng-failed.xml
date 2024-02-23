@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="Edge"/>
+  <parameter name="url" value="https://be.cognizant.com/"/>
+  <listeners>
+    <listener class-name="project.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <classes>
+      <class name="project.truTime">
+        <methods>
+          <include name="dateCheck"/>
+          <include name="dateWeekValidation"/>
+          <include name="MonthYearVal"/>
+          <include name="oneCvalidation"/>
+          <include name="beCog"/>
+          <include name="nvgTru"/>
+          <include name="valiDate"/>
+          <include name="captureUserInfo"/>
+        </methods>
+      </class> <!-- project.truTime -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

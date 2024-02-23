@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T21:12:37 IST" name="Suite" finished-at="2024-02-08T21:14:27 IST" duration-ms="109613">
+    <groups>
+    </groups>
+    <test started-at="2024-02-08T21:12:37 IST" name="ChromeTest" finished-at="2024-02-08T21:14:27 IST" duration-ms="109613">
+      <class name="project.truTime">
+        <test-method signature="beCog(java.lang.String,java.lang.String)[pri:1, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:12:38 IST" name="beCog" finished-at="2024-02-08T21:12:48 IST" duration-ms="10368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://be.cognizant.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beCog -->
+        <test-method signature="captureUserInfo()[pri:2, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:12:48 IST" name="captureUserInfo" finished-at="2024-02-08T21:13:35 IST" depends-on-methods="project.base.beCog" duration-ms="47084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureUserInfo -->
+        <test-method signature="oneCvalidation()[pri:3, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:13:35 IST" name="oneCvalidation" finished-at="2024-02-08T21:13:39 IST" depends-on-methods="project.base.captureUserInfo" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneCvalidation -->
+        <test-method signature="nvgTru()[pri:4, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:13:39 IST" name="nvgTru" finished-at="2024-02-08T21:13:54 IST" depends-on-methods="project.truTime.oneCvalidation" duration-ms="15208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nvgTru -->
+        <test-method signature="dateWeekValidation()[pri:5, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:13:54 IST" name="dateWeekValidation" finished-at="2024-02-08T21:13:54 IST" depends-on-methods="project.truTime.nvgTru" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateWeekValidation -->
+        <test-method signature="dateCheck()[pri:6, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:13:54 IST" name="dateCheck" finished-at="2024-02-08T21:14:25 IST" depends-on-methods="project.truTime.dateWeekValidation" duration-ms="30447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateCheck -->
+        <test-method signature="valiDate()[pri:7, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:14:25 IST" name="valiDate" finished-at="2024-02-08T21:14:25 IST" depends-on-methods="project.truTime.dateCheck" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiDate -->
+        <test-method signature="MonthYearVal()[pri:8, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:14:25 IST" name="MonthYearVal" finished-at="2024-02-08T21:14:25 IST" depends-on-methods="project.truTime.valiDate" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MonthYearVal -->
+        <test-method signature="Legends()[pri:9, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:14:25 IST" name="Legends" finished-at="2024-02-08T21:14:25 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Legends -->
+        <test-method signature="close()[pri:10, instance:project.truTime@10e31a9a]" started-at="2024-02-08T21:14:25 IST" name="close" finished-at="2024-02-08T21:14:27 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- project.truTime -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
